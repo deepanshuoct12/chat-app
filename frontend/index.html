@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src = "jquery-3.4.1.js"></script>
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "script.js"></script>
+    <style>
+        body{
+          
+            background-color: aquamarine
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <img src = "img/image1.jpg">
+    <h1>Socket.IO Example</h1>
+    <div id = "login-div">
+    <input placeholder = "username" type = "text" id = "loginbox">
+    <button id ="loginbtn">LOGIN</button>
+    </div>
+
+    <div id = "chat-div" style = "display:none">
+    <input placeholder = "send message" type ="text" id = "msgbox">
+    <button id = "sendmsg">SEND</button>
+    <ul id = "msglist"></ul>
+    </div>
+    
+</body>
+</html>
